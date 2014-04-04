@@ -14,6 +14,27 @@ different from those of other communities, like C, C++, C#, Java, VisualBasic, e
 Because indentation and whitespace are so important in Python, the Style Guide for Python Code approaches a standard. It 
 would be wise to adhere to the guide! Most open-source projects and (hopefully) in-house projects follow the style guide 
 quite closely.
+
+Whitespace 1
+4 spaces per indentation level.
+No hard tabs.
+Never mix tabs and spaces.
+This is exactly what IDLE and the Emacs Python mode support. Other editors may also provide this support.
+One blank line between functions.
+Two blank lines between classes.
+
+Whitespace 2
+Add a space after "," in dicts, lists, tuples, & argument lists, and after ":" in dicts, but not before.
+Put spaces around assignments & comparisons (except in argument lists).
+No spaces just inside parentheses or just before argument lists.
+No spaces just inside docstrings.
+
+def make_squares(key, value=0):
+    """Return a dictionary and a list..."""
+    d = {key: value}
+    l = [key, value]
+    return d, l
+
 Unless otherwise specified, follow PEP 8.
 
 Use flake8 to check for problems in this area. Note that our setup.cfg file contains some excluded files 
