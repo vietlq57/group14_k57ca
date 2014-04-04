@@ -3,6 +3,17 @@ Coding style
 Please follow these coding standards when writing code for inclusion in Django.
 
 Python style
+PEP = Python Enhancement Proposal
+
+A PEP is a design document providing information to the Python community, or describing a new feature for Python or its 
+processes or environment.
+
+The Python community has its own standards for what source code should look like, codified in PEP 8. These standards are 
+different from those of other communities, like C, C++, C#, Java, VisualBasic, etc.
+
+Because indentation and whitespace are so important in Python, the Style Guide for Python Code approaches a standard. It 
+would be wise to adhere to the guide! Most open-source projects and (hopefully) in-house projects follow the style guide 
+quite closely.
 Unless otherwise specified, follow PEP 8.
 
 Use flake8 to check for problems in this area. Note that our setup.cfg file contains some excluded files 
